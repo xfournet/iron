@@ -80,6 +80,7 @@
         <module>iron-spi</module>
         <module>iron-spi-chronicle</module>
         <module>iron-spi-jackson</module>
+        <module>iron-spi-joss</module>
         <module>iron-spi-kafka</module>
     </modules>
 
@@ -117,6 +118,11 @@
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-clients</artifactId>
                 <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.javaswift</groupId>
+                <artifactId>joss</artifactId>
+                <version>0.9.15</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
